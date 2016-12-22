@@ -1,0 +1,36 @@
+body{
+  margin:0;
+  font-family:PingFangSC-Regular,Helvetica,Verdana,'Microsoft YaHei','微软雅黑',Arial,Helvetica,sans-serif;
+}
+.layout {
+    width: 100%;
+    margin: 0 auto;
+    color: #333;
+    font-size: 11px;
+    line-height: 20px;
+    overflow: hidden;
+}
+.layout, .slider {
+    position: relative;
+}
+.header, .header dl dd a {
+    position: relative;
+    color: #fff;
+}
+body, h1, h2, h3, h4, h5, h6, img, li, ol, p, ul {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background: #51C4F3;
+    text-align: center;
+    line-height: 45px;
+    height: 45px;
+    overflow: hidden;
+    z-index: 9;
+}
+.header h2 {
+    font-size: 16px;
+    font-weight: 400;
+    text-shadow: initial!important;
+}
